@@ -17,4 +17,8 @@ resource "aws_dynamodb_table" "lab_table" {
     type = "S"
   }
 }
+resource "aws_s3_bucket" "lab-test-bucket" {
+  bucket = "lab-test-bucket-mamadou"
+
+}
 
